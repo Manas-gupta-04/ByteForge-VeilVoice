@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 Complaint Box
 
-## Getting Started
+Team: ByteForge  
 
-First, run the development server:
 
-```bash
+ Table of Contents
+- Overview
+- Features
+- TechStack
+- Setup Instructions
+- Usage
+- Future Plans
+
+
+
+-OVERVIEW
+Complaint Box** is a platform that allows students to submit complaints anonymously regarding any issues in their institution. Students can freely express concerns without revealing their identity, ensuring their voices are heard and problems are addressed efficiently.
+
+
+-FEATURES
+Student Features
+- Submit complaints category-wise.
+- Track complaints using a *secret code*.
+- View status of complaints: "Pending" or "Solved"
+- See if a faculty has replied to the complaint.
+
+-ADMIN FEATURES
+- Secure admin login.
+- Reply to complaints on behalf of faculty.
+- Mark complaints as solved.
+
+-FUTURE FEATURES
+- Auto-forward unresolved complaints to higher authorities after a set time.
+- AI integration for smart responses and complaint analytics.
+
+
+
+-TECH STACK
+- Frontend: Next.js, React.js, CSS  
+- Backend:* Node.js, Express  
+- Database:Firebase Firestore  
+- Design:Figma  
+- Version Control: GitHub  
+- Assets:Icons and images from various sources  
+- Future AI Integration: GPT, Perplexity  
+
+
+
+- SETUP INSTRUCTIONS
+Follow these steps to run the project locally:
+
+1. Clone the repository
+bash
+git clone <your-repo-url>
+cd <repository-folder>
+
+2. Install dependencies
+
+npm install
+
+3. Set up environment variables
+
+Create a .env file in the root directory.
+
+Add Firebase credentials and secret keys:
+
+FIREBASE_API_KEY=your_api_key
+FIREBASE_PROJECT_ID=your_project_id
+JWT_SECRET=your_jwt_secret
+
+4. Set up Firebase database
+
+Configure Firestore with collections used in the project (complaints, users, etc.).
+
+
+5. Run the project
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6. Open in browser: http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+USAGE
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Students click on Complaint Box to submit a complaint.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+2. Select the category and submit the complaint.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Receive a secret code to track the complaint.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Check complaint status: Pending / Solved.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+5. View faculty replies if available.
+
+
+6. Admin logs in to the Dashboard to:
+
+Add replies
+
+Mark complaints as solved
+
+
+-FUTURE PLANS
+
+Automatically escalate unresolved complaints to higher authorities.
+
+Integrate AI to provide smart replies and analytics.
