@@ -11,11 +11,11 @@ Team: ByteForge
 - Usage
 - Future Plans
 
-
+If the image is not visible then please check the public folder all images are there.
 <a href="/">
     <img
       alt="name"
-      src="/2.png"
+      src="/public/2.png"
       width="100%"
     />
   </a>
