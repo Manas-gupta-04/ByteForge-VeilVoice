@@ -72,8 +72,8 @@ Follow these steps to run the project locally:
 
 1. **Clone the repository**  
    ```bash
-   git clone <your-repo-url>
-   cd <repository-folder>
+   git clone https://github.com/Manas-gupta-04/ByteForge-VeilVoice.git
+   cd ByteForge-VeilVoice
    ```  
 
 2. **Install dependencies**  
