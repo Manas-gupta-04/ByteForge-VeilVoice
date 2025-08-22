@@ -1,139 +1,128 @@
-# 📝 Complaint Box
+# 📝 Complaint Box  
 
-Team: ByteForge  
+**Team: ByteForge**  
 
+---
 
- Table of Contents
-- Overview
-- Features
-- TechStack
-- Setup Instructions
-- Usage
-- Future Plans
+## 📑 Table of Contents
+- [Overview](#overview)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Setup Instructions](#setup-instructions)  
+- [Usage](#usage)  
+- [Future Plans](#future-plans)  
 
-If the image is not visible then please check the public folder all images are there.
-<a href="/">
-    <img
-      alt="name"
-      src="/public/2.png"
-      width="100%"
-    />
-  </a>
-<a href="/">
-    <img
-      alt="name"
-      src="/1.png"
-      width="100%"
-    />
-  </a>
-<a href="/">
-    <img
-      alt="name"
-      src="/3.png"
-      width="100%"
-    />
-  </a>
-<a href="/">
-    <img
-      alt="name"
-      src="/4.png"
-      width="100%"
-    />
-  </a>
+---
 
+## 📸 Screenshots  
 
--OVERVIEW
-Complaint Box** is a platform that allows students to submit complaints anonymously regarding any issues in their institution. Students can freely express concerns without revealing their identity, ensuring their voices are heard and problems are addressed efficiently.
+> If the images are not visible, please check the `public` folder (all images are there).  
 
+![Complaint Box UI](/2.png)  
+![Complaint Submission](/1.png)  
+![Complaint Tracking](/3.png)  
+![Admin Dashboard](/4.png)  
 
--FEATURES
-Student Features
-- Submit complaints category-wise.
-- Track complaints using a *secret code*.
-- View status of complaints: "Pending" or "Solved"
-- See if a faculty has replied to the complaint.
+---
 
--ADMIN FEATURES
-- Secure admin login.
-- Reply to complaints on behalf of faculty.
-- Mark complaints as solved.
+## 📖 Overview  
 
--FUTURE FEATURES
-- Auto-forward unresolved complaints to higher authorities after a set time.
-- AI integration for smart responses and complaint analytics.
+**Complaint Box** is a platform that allows students to **submit complaints anonymously** regarding issues in their institution. Students can express concerns freely without revealing their identity, ensuring problems are addressed effectively.  
 
+---
 
+## ✨ Features  
 
--TECH STACK
-- Frontend: Next.js, React.js, CSS  
-- Backend:* Node.js, Express  
-- Database:Firebase Firestore  
-- Design:Figma <https://www.figma.com/design/tHDhtXCJxa31YUrPEMSgPY/VeilVoice?node-id=0-1&t=EXXS8U7bQEanePNb-1>  
-- Version Control: GitHub  
-- Assets:Icons and images from various sources  
-- Future AI Integration: GPT, Perplexity  
+### 👨‍🎓 Student Features  
+- Submit complaints **category-wise**.  
+- Track complaints using a **secret code**.  
+- View complaint status: **Pending** / **Solved**.  
+- See faculty/admin replies to complaints.  
 
+### 🛠️ Admin Features  
+- Secure **Admin Login**.  
+- Reply to complaints on behalf of faculty.  
+- Mark complaints as **Solved**.  
 
+### 🚀 Future Features  
+- Auto-forward unresolved complaints to higher authorities after a set time.  
+- AI-powered responses and complaint analytics.  
 
-- SETUP INSTRUCTIONS
-Follow these steps to run the project locally:
+---
 
-1. Clone the repository
-bash
-git clone <your-repo-url>
-cd <repository-folder>
+## 🛠 Tech Stack  
 
-2. Install dependencies
+- **Frontend:** Next.js, React.js, CSS  
+- **Backend:** Node.js, Express  
+- **Database:** Firebase Firestore  
+- **Design:** [Figma Design](https://www.figma.com/design/tHDhtXCJxa31YUrPEMSgPY/VeilVoice?node-id=0-1&t=EXXS8U7bQEanePNb-1)  
+- **Version Control:** GitHub  
+- **Assets:** Icons & Images from multiple sources  
+- **Future AI Integration:** GPT, Perplexity  
 
-npm install
+---
 
-3. Set up environment variables
+## ⚙️ Setup Instructions  
 
-Create a .env file in the root directory.
+Follow these steps to run the project locally:  
 
-Add Firebase credentials and secret keys:
+1. **Clone the repository**  
+   ```bash
+   git clone <your-repo-url>
+   cd <repository-folder>
+   ```  
 
-FIREBASE_API_KEY=your_api_key
-FIREBASE_PROJECT_ID=your_project_id
-JWT_SECRET=your_jwt_secret
+2. **Install dependencies**  
+   ```bash
+   npm install
+   ```  
 
-4. Set up Firebase database
+3. **Set up environment variables**  
+   - Create a `.env` file in the root directory.  
+   - Add your Firebase credentials and secret keys:  
+     ```env
+     FIREBASE_API_KEY=your_api_key
+     FIREBASE_PROJECT_ID=your_project_id
+     JWT_SECRET=your_jwt_secret
+     ```  
 
-Configure Firestore with collections used in the project (complaints, users, etc.).
+4. **Set up Firebase database**  
+   - Configure Firestore with the following collections:  
+     - `complaints`  
+     - `users`  
 
+5. **Run the project**  
+   ```bash
+   npm run dev
+   ```  
 
-5. Run the project
+6. **Open in browser**  
+   - [http://localhost:3000](http://localhost:3000)  
 
-npm run dev
+---
 
-6. Open in browser: http://localhost:3000
+## ▶️ Usage  
 
-USAGE
+### Student Flow  
+1. Open **Complaint Box** to submit a complaint.  
+2. Select a **category** and submit.  
+3. Receive a **secret code** for tracking.  
+4. Check complaint status: **Pending / Solved**.  
+5. View **faculty/admin replies** if available.  
 
-1. Students click on Complaint Box to submit a complaint.
+### Admin Flow  
+1. Log in securely to the **Admin Dashboard**.  
+2. Review submitted complaints.  
+3. Add **replies** to complaints.  
+4. Mark complaints as **Solved**.  
 
+---
 
-2. Select the category and submit the complaint.
+## 🔮 Future Plans  
 
+- **Escalation System** – Automatically forward unresolved complaints to higher authorities.  
+- **AI Integration** – Smart replies, categorization, and analytics using AI.  
 
-3. Receive a secret code to track the complaint.
+---
 
-
-4. Check complaint status: Pending / Solved.
-
-
-5. View faculty replies if available.
-
-
-6. Admin logs in to the Dashboard to:
-
-Add replies
-
-Mark complaints as solved
-
-
--FUTURE PLANS
-
-Automatically escalate unresolved complaints to higher authorities.
-
-Integrate AI to provide smart replies and analytics.
+✨ **ByteForge — Empowering Student Voices**  
