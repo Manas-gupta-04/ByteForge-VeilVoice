@@ -18,7 +18,7 @@
 
 > If the images are not visible, please check the `public` folder (all images are there).  
 
-![Complaint Box UI](/2.png)  
+![Complaint Box UI](./public/2.png)  
 ![Complaint Submission](/1.png)  
 ![Complaint Tracking](/3.png)  
 ![Admin Dashboard](/4.png)  
