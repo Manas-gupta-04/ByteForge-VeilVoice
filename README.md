@@ -12,6 +12,35 @@ Team: ByteForge
 - Future Plans
 
 
+<a href="/">
+    <img
+      alt="name"
+      src="/2.png"
+      width="100%"
+    />
+  </a>
+<a href="/">
+    <img
+      alt="name"
+      src="/1.png"
+      width="100%"
+    />
+  </a>
+<a href="/">
+    <img
+      alt="name"
+      src="/3.png"
+      width="100%"
+    />
+  </a>
+<a href="/">
+    <img
+      alt="name"
+      src="/4.png"
+      width="100%"
+    />
+  </a>
+
 
 -OVERVIEW
 Complaint Box** is a platform that allows students to submit complaints anonymously regarding any issues in their institution. Students can freely express concerns without revealing their identity, ensuring their voices are heard and problems are addressed efficiently.
@@ -39,7 +68,7 @@ Student Features
 - Frontend: Next.js, React.js, CSS  
 - Backend:* Node.js, Express  
 - Database:Firebase Firestore  
-- Design:Figma  
+- Design:Figma <https://www.figma.com/design/tHDhtXCJxa31YUrPEMSgPY/VeilVoice?node-id=0-1&t=EXXS8U7bQEanePNb-1>  
 - Version Control: GitHub  
 - Assets:Icons and images from various sources  
 - Future AI Integration: GPT, Perplexity  
